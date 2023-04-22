@@ -26,11 +26,47 @@ cd .. && sudo rm -rf blocgen
 blocgen -b <name>
 ```
 
+- Example:
+```sh
+blocgen -b get_user_details
+```
+
+This will generate
+
+```
+get_user_details_bloc/
+|
+|___ get_user_details_bloc.dart
+|
+|___ get_user_details_event.dart
+|
+|___ get_user_details_state.dart
+```
+
+with appropriate snippets with respect to file
+
 ### To generate Cubit
 
 ```sh
 blocgen -c <name>
 ```
+
+- Example:
+```sh
+blocgen -c get_user_details
+```
+
+This will generate
+
+```
+get_user_details_cubit/
+|
+|___ get_user_details_cubit.dart
+|
+|___ get_user_details_state.dart
+```
+
+with appropriate snippets with respect to file
 
 >Note:\
 >name must be in snakecase i.e. `user_details`
