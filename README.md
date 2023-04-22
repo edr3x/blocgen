@@ -1,9 +1,9 @@
-# blocgen [WIP]
+# blocgen
 
 >NOTE:
 >This script is heavily Work In Progreess
 
-Generate BLoC and Cubit boilerplate easily with a cli tool
+Generate BLoC and Cubit boilerplate for [flutter_bloc](https://pub.dev/packages/flutter_bloc) with a cli tool
 
 This generates a bloc or cubit folder in your current directory according to the argument provided
 
